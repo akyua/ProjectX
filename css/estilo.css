@@ -1,0 +1,47 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.banner{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.banner-conteudo{
+    text-align: center;
+    color: white;
+    position: center;
+}
+
+.banner-conteudo h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+.selecao-conteudo{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+.selecao-conteudo h2{
+    background-color: rgb(189, 182, 182);
+    border-bottom: solid 2px rgb(104, 98, 98);
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    text-shadow: 2px 2px 1px #333;
+    height: 80px;
+    line-height: 80px;
+}
